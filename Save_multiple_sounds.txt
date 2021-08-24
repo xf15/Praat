@@ -1,7 +1,7 @@
 # Start with an input form
 form Enter directory to save your sounds
      sentence directory /Users/xzfang/Github/ideal_adapter/stimuli_exp2_ingredients
-     speaker sentence cindy
+     sentence speaker cindy
 endform
 
 # Ask the user to select the sounds they wane to save

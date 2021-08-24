@@ -1,6 +1,6 @@
 # Start with an input form
 form Enter directory to save your sounds
-     sentence directory /Users/xzfang/Github/ideal_adapter/stimuli_exp2_ingredients
+     sentence directory /Users/xzfang/Github/ideal_adapter/stimuli_exp2_ingredients/
      sentence speaker cindy
 endform
 
@@ -19,7 +19,7 @@ for thisSound from 1 to numberOfSelectedSounds
 	name$ = selected$("Sound")
 
 	# Old style of Praat coding, but it still works
-	do ("Save as WAV file...", directory$ + "/" + speaker$ + "_" + name$ + ".wav")
+	do ("Save as WAV file...", directory$ + speaker$ + "_" + name$ + ".wav")
 
 endfor
 

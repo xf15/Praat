@@ -26,7 +26,7 @@ form Input Enter specifications for Intensity scaling
     comment Enter desired intensity (dB):
     	real intensity 75
     comment Enter directory where the ORIGINAL sound files will be retrieved:
-    	sentence soundDir C:\Enter-Your-Directory-Here
+    	sentence soundDir /Users/xzfang/Github/ideal_adapter/stimuli_exp2_ingredients
     comment Enter filename to which the info should be written
     	sentence outFile intensity_info.txt
 endform

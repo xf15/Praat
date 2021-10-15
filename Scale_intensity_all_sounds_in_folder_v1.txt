@@ -78,7 +78,8 @@ procedure changeIntensities
    endfor
 
    # decide whether you want to save the files
-	call userSelectSave
+	# call userSelectSave
+	call saveSounds
 endproc
 
 procedure userSelectSave
